@@ -2,7 +2,7 @@ html {
   background-color: #FFFFFF;
   font-family: 'Merriweather', serif;
   box-sizing: border-box;
-  browser width: 600px;
+  width: 600px;
 }
 
 h1 {
@@ -21,13 +21,42 @@ nav {
   text-align: center;
 }
 
-.grain-1 {
+nav ol {
+  margin: 0em;
+  padding: 0em;
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  width: 32%;
+  float: left;
+  border: 1px solid #a93f35;
+  background-color: #d05c2e;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: #orange;
+  padding: 0.5em;
+  margin: 0;
+}
+
+nav a:hover {
+  background-color: #brown;
+}
+
+.grain-left {
   float: left;
   width: 50px;
   margin-top: 10px;
 }
 
-.grain-2 {
+.grain-right {
   float:right;
   width: 50px;
   margin-top: 10px;
