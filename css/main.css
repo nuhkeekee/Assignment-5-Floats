@@ -10,7 +10,7 @@ h1 {
   font-size: 2.5em;
   font-weight: bold;
   text-align: center;
-  background-color: #dc8252;
+  background-color: #d05c2e;
   display: block;
   padding: 15px;
   margin: 0em;
@@ -29,7 +29,7 @@ nav ol {
 
 nav li {
   display: inline;
-  width: 32%;
+  width: 32.9%;
   float: left;
   border: 1px solid #a93f35;
   background-color: #d05c2e;
@@ -46,8 +46,8 @@ nav a {
   margin: 0;
 }
 
-nav a :hover {
-  background-color: #brown;
+nav a:hover {
+  background-color: #d05c2e;
 }
 
 .grain-left {
@@ -82,22 +82,22 @@ p {
 }
 
 .cereal {
-  width: 30%;
   float: right;
+  width: 35%;
+  margin-top: 5px;
+  padding-top: 5px;
   margin-right: 10px;
   margin-left: 5px;
-  margin-bottom: 10px;
 }
 
 
 .quinoa {
-  width: 30%;
-  float: right;
+  width: 35%;
+  clear: right;
   margin-right: 10px;
   margin-left: 5px;
   margin-bottom: 10px;
 }
-
 
 h2 {
   color: #FFF;
@@ -167,4 +167,62 @@ h2 p{
   padding-left: 3em;
   padding-right: 3em;
   float: left;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  padding: 1em;
+  margin: 0;
+  clear: both;
+}
+
+span {
+  font-weight: bold;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+  font-size: 0.9em;
+  display: inline;
+  list-style: none;
+}
+
+ul li {
+  margin: 0em 1em 0em 0em;
+  overflow: hidden;
+}
+
+.peanuts, .beans, .lentils {
+  float: left;
+  width: 30%;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+
+.beans {
+  clear: left;
+}
+
+.lentils {
+  clear: left;
+}
+
+aside {
+  display: block;
+  background-color: #d05c2e;
+  clear: both;
+}
+
+aside p {
+  color: #e0a998;
+  font-size: 0.8em;
+  padding: 10px;
+  text-align: center;
+  margin: 0;
 }
