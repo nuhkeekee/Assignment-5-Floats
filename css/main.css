@@ -1,0 +1,34 @@
+html {
+  background-color: #FFFFFF;
+  font-family: 'Merriweather', serif;
+  box-sizing: border-box;
+  browser width: 600px;
+}
+
+h1 {
+  color: #white;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  background-color: #orange;
+  display: block;
+  padding: 15px;
+  margin: 0em;
+}
+
+nav {
+  background-color: #orange;
+  text-align: center;
+}
+
+.grain-1 {
+  float: left;
+  width: 50px;
+  margin-top: 10px;
+}
+
+.grain-2 {
+  float:right;
+  width: 50px;
+  margin-top: 10px;
+}
